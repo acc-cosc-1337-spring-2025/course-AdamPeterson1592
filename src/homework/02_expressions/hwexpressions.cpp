@@ -7,7 +7,7 @@ int add_numbers(int num1, int num2)
 }
 
 double get_sales_tax_amount(double meal_amount){
-	double tax_rate = 0.825;
+	double tax_rate = 0.0675;
 	return tax_rate * meal_amount;
 }
 double get_tip_amount(double meal_amount, double tip_rate){
